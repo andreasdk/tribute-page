@@ -5,6 +5,10 @@ html, body {
 }
 
 #main {
+	margin:30px auto;
+	padding:15px;
+	border-radius:5px;
+	border:0px solid;
 	background: #CEAD1D;
 }
 
@@ -12,10 +16,19 @@ html, body {
 	padding: 25px;
 }
 
-#img-id {
+#img-div {
+
 	background: #08C1B5;
 	padding: 10px;
 	margin: 20px;
+}
+
+#image {
+	padding: 10px;
+	width:50%;
+	margin: auto;
+  max-width:100%;
+  display: block;
 }
 
 #tribute-info::before {
@@ -31,14 +44,15 @@ html, body {
 	padding-bottom: 10px;
 }
 
+ul {
+	max-width:550px;
+  	margin:0 auto;
+  	text-align:left;
+}
+
 li {
 	text-decoration: none;
 	list-style: none;
 	padding: 10px;
 }
 
-#img {
-	padding: 10px;
-	width:50%;
-	margin: 30px;
-}
